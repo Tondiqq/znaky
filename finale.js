@@ -17,23 +17,23 @@ function radaMezer(pocet){
 let pocetRadku = 10;    
 let divVystup = document.getElementById('divVystup'); 
 
-document.getElementById('btnCtverec').onclick = function() {
+document.getElementById('btn4').onclick = function() {
     divVystup.innerHTML = generateCtverec(pocetRadku);
 }
-document.getElementById('btnTrojuhelnikPravy').onclick = function() {
-    divVystup.innerHTML = generateTrojuhelnikPravy(pocetRadku);
+document.getElementById('btn3Right').onclick = function() {
+    divVystup.innerHTML = generate3Right(pocetRadku);
 }
 
-document.getElementById('btnTrojuhelnikLevy').onclick = function() {
-    divVystup.innerHTML = generateTrojuhelnikLevy(pocetRadku);
+document.getElementById('btn3Left').onclick = function() {
+    divVystup.innerHTML = generate3Left(pocetRadku);
 }
 
-document.getElementById('btnPyramida').onclick = function() {
+document.getElementById('btnPyramid').onclick = function() {
     divVystup.innerHTML = generatePyramida(pocetRadku); 
 }
 
-document.getElementById('btnPyramidaObracena').onclick = function() {
-    divVystup.innerHTML = generatePyramidaObracena(pocetRadku);
+document.getElementById('btnPyramidNaopak').onclick = function() {
+    divVystup.innerHTML = generatePyramidaNaopak(pocetRadku);
 }
 
 document.getElementById('btnObrys').onclick = function() {
